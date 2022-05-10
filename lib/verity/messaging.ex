@@ -1,6 +1,6 @@
-defmodule VerityMessaging do
+defmodule Verity.Messaging do
   @moduledoc """
-  Documentation for `VerityMessaging`.
+  Documentation for `Verity.Messaging`.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule VerityMessaging do
 
   ## Examples
 
-      iex> VerityMessaging.hello()
+      iex> Verity.Messaging.hello()
       :world
 
   """
