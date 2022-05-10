@@ -1,9 +1,9 @@
-defmodule VerityMessaging.MixProject do
+defmodule Verity.Messaging.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :verity_messaging,
+      app: :vrt_messaging,
       version: "0.1.0",
       elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,

@@ -1,8 +1,8 @@
-defmodule VerityMessagingTest do
+defmodule Verity.MessagingTest do
   use ExUnit.Case
-  doctest VerityMessaging
+  doctest Verity.Messaging
 
   test "greets the world" do
-    assert VerityMessaging.hello() == :world
+    assert Verity.Messaging.hello() == :world
   end
 end
